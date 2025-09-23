@@ -16,6 +16,7 @@ Allow the user to select a shape with the mouse:
 * On click, find the shape that's nearest to the mouse location.
 * Do NOT worry about making that search efficient. There's an entire field of computational geometry dedicated to that.
 * Once a shape is selected, make it the "current shape".
+* Identify the current shape using something clever with CSS. For example a border, or another shape drawn *behind* it (like a larger yellow rectangle)
 
 Commands:
 * m: Move the current shape. The next mouse click location becomes the new origin of the shape.
