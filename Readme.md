@@ -20,11 +20,11 @@ Allow the user to select a shape with the mouse:
 
 Commands:
 * m: Move the current shape. The next mouse click location becomes the new origin of the shape.
-* 1: Make the shape red
-* 2: Make the shape blue
-* 3: Make the shape green
-* +: Increase the shape size by 10%
-* -: Decrease the shape size by 10%
+* 1: Make the current shape red
+* 2: Make the current shape blue
+* 3: Make the current shape green
+* +: Increase the current shape size by 10%
+* -: Decrease the current shape size by 10%
   
 My implementation has functions that do the following
 * findClosest: finds the shape closest to an x/y coordinate by checking the distances to each shape origin
