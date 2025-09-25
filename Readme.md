@@ -26,3 +26,9 @@ Commands:
 * +: Increase the shape size by 10%
 * -: Decrease the shape size by 10%
   
+My implementation has functions that do the following
+* findClosest: finds the shape closest to an x/y coordinate by checking the distances to each shape origin
+* window.addEventListener: for keydown events. Has if/else to identify each command.
+* For "m", adds an event listener for "mousedown". The event listener is defined in the "m" block, and it removes itself from the listener after it's been called. This prevents it from continuing to capture mouse events.
+* toggleBlink: Blinks the selected shape on and off by toggling the fill between the original color and transparent.
+* svg.addDeventListener: On "mousedown", finds the closest shape and then sets an interval using setInterval to call toggleBlink. Sets a timeout to clear the interval using clearInterval.
